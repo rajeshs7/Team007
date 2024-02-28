@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: qs-orchestrator-service
+  description: This service receives new specs and processes them
+  tags:
+    - nodejs
+    - backend
+spec:
+  type: service
+  lifecycle: production
+  owner: backend-team
